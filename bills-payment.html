@@ -774,7 +774,7 @@
 
             <div class="col s6 infoarea">
                 <div class=" z-depth-1 center">
-                    <a href="#!" class="invite-box show-box active-show" id="power-btn">
+                    <a class="invite-box show-box active-show" id="power-btn">
                         
                         Power
                     </a>
@@ -785,7 +785,7 @@
             <div class="col s6 infoarea">
                 
                 <div class=" z-depth-1 center">
-                    <a href="#!" class="visit-box show-box" id="servicefee-btn">
+                    <a  class="visit-box show-box" id="servicefee-btn">
                         Service Fee
                     </a>
                 </div>
@@ -1500,11 +1500,6 @@ if ("serviceWorker" in navigator) {
 
 <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
 
-<!-- CORE JS FRAMEWORK - START --> 
-<script src="assets/js/jquery-2.2.4.min.js"></script>
-<script src="assets/js/materialize.js"></script>
-<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script> 
-<!-- CORE JS FRAMEWORK - END --> 
 
 
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
@@ -1515,106 +1510,6 @@ if ("serviceWorker" in navigator) {
 </script>
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
 
-
-
-
-
-
-<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
-<script type="text/javascript">
-    $(".datepicker").datepicker();
-    $(".datepicker.datepicker1").datepicker({
-      autoClose: true
-    });
-    $(".datepicker.datepicker2").datepicker({
-      format: "dddd, dd mmmm yyyy",
-      autoClose: true
-    });
-  
-    $(".datepicker.datepicker3").datepicker({
-      isRTL: true,
-      autoClose: true
-    });
-    $(".datepicker.datepicker4").datepicker({
-      autoClose: true,
-      firstDay: 1
-    });
-  
-    $(".datepicker.datepicker5").datepicker({
-      autoClose: true,
-      showDaysInNextAndPreviousMonths: true
-    });
-  
-    $(".datepicker.datepicker6").datepicker({
-      autoClose: true,
-      showClearBtn: true
-    });
-    $(".datepicker.datepicker7").datepicker({
-      autoClose: true,
-      format: "mm/dd/yyyy",
-      autoClose: true
-    });
-  
-    $(".datepicker.datepicker8").datepicker({
-      autoClose: true,
-      disableWeekends: true,
-      firstDay: 1
-    });
-  
-  </script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
-
-
-
-
-<script type="text/javascript">
-    $(".modal").modal();
-</script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
-
-
-
-
-
-
-
-
-
-<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
-<script type="text/javascript">
-    $(".timepicker").timepicker();
-    $(".timepicker.timepicker1").timepicker({
-      autoClose: true
-    });
-  
-    $(".timepicker.timepicker2").timepicker({
-      twelveHour: false,
-      autoClose: true
-    });
-  
-    $(".timepicker.timepicker3").timepicker({
-      vibrate: false,
-      autoClose: true
-    });
-    $(".timepicker.timepicker4").timepicker({
-      autoClose: true,
-      showClearBtn: true
-    });
-  
-</script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
-
-
-
-
-
-<!-- Barcode -->
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript">
-    function generateBarCode() {
-        var nric = $('#text').val();
-        var url = 'https://api.qrserver.com/v1/create-qr-code/?data=' + nric + '&amp;size=50x50';
-        $('#barcode').attr('src', url);
-    }
-</script>
 
 
 
@@ -1650,10 +1545,6 @@ if ("serviceWorker" in navigator) {
 
 
 
-<!-- calendar -->
-<script src="assets/plugins/fullcalendar/vanillaCalendar.js"></script>
-
-
 
 
 <!-- CORE TEMPLATE JS - START --> 
@@ -1670,10 +1561,43 @@ if ("serviceWorker" in navigator) {
     $('.preloader-background').delay(10).fadeOut('slow');
   });
 </script>
+
+
+
+<!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
+
+<!-- CORE JS FRAMEWORK - START -->
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+<script src="assets/js/materialize.js"></script>
+<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<!-- CORE JS FRAMEWORK - END -->
+
+
+
+
+
+<!-- calendar -->
+<script src="assets/plugins/fullcalendar/vanillaCalendar.js"></script>
+
+
+
+
+<script type="text/javascript">
+    $(".modal").modal();
+</script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+
+
+
+
 </body>
 
-<!-- Mirrored from www.jaybabani.com/zak-html/app/ui-cards.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jul 2022 13:17:37 GMT -->
+
+
 </html>
+
+
+
 
 
 
