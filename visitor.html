@@ -515,7 +515,7 @@
             background: #FFFFFF;
             box-shadow: 0px 3px 8px rgba(74, 85, 104, 0.07);
             border-radius: 20px;
-            padding: 10px;
+            padding: 5px 10px;
             font-size: 10px;
             font-weight: 600;
             color: #000;
@@ -525,7 +525,7 @@
             background: #FFFFFF;
             box-shadow: 0px 3px 8px rgba(74, 85, 104, 0.07);
             border-radius: 20px;
-            padding: 10px;
+            padding: 5px 10px;
             font-size: 10px;
             color: #00844C;
             font-weight: 600;
@@ -537,7 +537,7 @@
             box-shadow: 0px 3px 8px rgba(74, 85, 104, 0.07);
             border-radius: 20px;
             font-weight: 600;
-            padding: 10px;
+            padding: 5px 10px;
             font-size: 10px;
             color: #FF0808;
         }
@@ -725,7 +725,7 @@
                     <div class="input-field col s12">
                         <i class="mdi mdi-phone-plus prefix"></i>
                         <input id="phone" type="text" class="validate" style="text-indent:2.5rem;">
-                        <label for="phone">Number</label>
+                        <label for="phone">Phone Number</label>
                     </div>
 
                     <div class="input-field col s12">
@@ -739,20 +739,20 @@
                     <div class="input-field col s12">
                         <i class="mdi mdi-clock prefix"></i>
                         <input type="text" id="timepicker-input1" class="timepicker timepicker1" style="text-indent:2.5rem;">
-                        <label for="timepicker-input1">Time</label>
+                        <label for="timepicker-input1">Start Time</label>
                     </div>
 
 
                     <div class="input-field col s12">
                         <i class="mdi mdi-clock prefix"></i>
-                        <input id="period" type="text" class="validate" style="text-indent:2.5rem;">
-                        <label for="period">Period</label>
+                        <input id="period" id="timepicker-input1" class="timepicker timepicker1" style="text-indent:2.5rem;">
+                        <label for="period">End Time</label>
                     </div>
 
 
 
                     <div class="input-field col s12" style="text-align: center;">
-                        <a class="waves-effect waves-light btn-large bg-primary modal-trigger" href="#modal1" onblur='generateBarCode();'>Generate Code</a>
+                        <a class="waves-effect waves-light btn-large bg-primary modal-trigger" href="#modal1" onblur='generateBarCode();'>Get Code</a>
                     </div>
 
 
@@ -863,18 +863,13 @@
             <div class="col s12 visit-status-card">
 
 
-                <div class="row visit-status-card-inner">
+                <div class="row visit-status-card-inner" style="margin:0px 0 10px ;">
 
                     <div class="col s7 pad-0">
 
                         <div class="blog-info">
                             <h5 class="title" style="text-transform:capitalize ; color: #000; margin: 2.2rem 0 1.2rem 0;">Mr
                                 Emmanuel</h5>
-
-                            <span class="visit-status">Status</span>
-                            <span class="visit-active">Active</span>
-                            <span class="visit-expired">Expired</span>
-
 
                         </div>
 
@@ -895,6 +890,18 @@
                         </div>
 
                     </div>
+
+
+                    <div class="col s12 pad-0" style="margin-top: 5px;">
+
+                        <span class="visit-status">Status</span>
+                            <span class="visit-active">Active</span>
+                            <span class="visit-expired">Expired</span>
+                            <span class="visit-expired" style="background-color: red; color:#fff">Cancel</span>
+                        
+
+                    </div>
+
 
                 </div>
 
@@ -904,18 +911,13 @@
             <div class="col s12  visit-status-card ">
 
 
-                <div class="row visit-status-card-inner">
+                <div class="row visit-status-card-inner" style="margin:0px 0 10px ;">
 
                     <div class="col s7 pad-0 ">
 
                         <div class="blog-info">
                             <h5 class="title" style="text-transform:capitalize ; color: #000; margin: 2.2rem 0 1.2rem 0;">Mr
                                 Emmanuel</h5>
-
-                            <span class="visit-status">Status</span>
-                            <span class="visit-active">Active</span>
-                            <span class="visit-expired">Expired</span>
-
 
                         </div>
 
@@ -934,6 +936,18 @@
 
 
                         </div>
+
+                    </div>
+
+
+
+                    <div class="col s12 pad-0" style="margin-top: 5px;">
+
+                        <span class="visit-status">Status</span>
+                            <span class="visit-active">Active</span>
+                            <span class="visit-expired">Expired</span>
+                            <span class="visit-expired" style="background-color: red; color:#fff">Cancel</span>
+                        
 
                     </div>
 

@@ -10459,16 +10459,18 @@ $jscomp.polyfill = function (e, r, p, m) {
   'use strict';
 
   var _defaults = {
-    duration: 200, // ms
+    duration: false, // ms
     dist: -100, // zoom scale TODO: make this more intuitive as an option
     shift: 0, // spacing for center image
     padding: 0, // Padding between non center items
-    numVisible: 5, // Number of visible items in carousel
     fullWidth: false, // Change to full width styles
     indicators: false, // Toggle indicators
     noWrap: false, // Don't wrap around and cycle through items.
+    preventLoop: false, // Prevent carousel from looping through the itens like 
+    enableTouch: false, // Change to enable touch and dragging
     onCycleTo: null // Callback for when a new slide is cycled to.
   };
+  
 
   /**
    * @class

@@ -9,3 +9,13 @@ $(document).ready(function(){
 });
   }); // end of document ready
 })(jQuery);
+
+
+
+
+// $(document).ready(function() {
+// 	$('.carousel').carousel({
+// 	  pause: true,
+// 	  interval: false,
+// 	});
+//   });

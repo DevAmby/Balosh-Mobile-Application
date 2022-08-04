@@ -89,10 +89,10 @@
         }
 
 
-        .welcome-logo.index-welcome {
+        /* .welcome-logo.index-welcome {
             margin-top: 40px !important;
 
-        }
+        } */
 
         .carousel.carousel-fullscreen .carousel-item .item-content {
             padding: 0 15% !important;
@@ -148,7 +148,7 @@
 
 
         .col .row {
-            margin: 0 -15px !important;
+            margin: 30px -15px !important;
         }
 
 
@@ -176,7 +176,7 @@
             border: 0;
             -webkit-box-shadow: none;
             box-shadow: none;
-            margin-top: -2rem;
+            margin-top: 2rem;
         }
 
 
@@ -263,8 +263,8 @@
     <h1 class="white-text center welcome-logo index-welcome balosh-logo"><img src="assets/images/logo.png" alt=""></h1>
 
     <div class="fullfixed index-carousel">
-        <div class="carousel carousel-fullscreen carousel-slider">
-            <div class="carousel-item" href="#one!">
+        <div class="carousel carousel-fullscreen carousel-slider" >
+            <div class="carousel-item" href="#one!" >
                 <div class="bg" style="background-image: url('assets/images/bg1.png')"></div>
                 <div class="item-content center-align white-text">
                     <div class="spacer-xlarge"></div>
@@ -587,10 +587,10 @@
                 fullWidth: true,
                 indicators: true,
             }).css("height", $(window).height());
-            setTimeout(autoplay, 3500);
+            setTimeout(autoplay, 50000);
             function autoplay() {
                 $(".carousel-fullscreen.carousel-slider").carousel("next");
-                setTimeout(autoplay, 3500);
+                setTimeout(autoplay, 50000);
             }
 
         });   </script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
